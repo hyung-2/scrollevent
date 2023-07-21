@@ -1,0 +1,35 @@
+body {
+  background: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+  height: 300vh;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  height: 200px;
+  margin: 100px auto;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.container .item {
+  width: 200px;
+  height: 100%;
+  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  flex: 1 0 auto;
+  text-align: center;
+  line-height: 200px;
+  font-size: 5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.active {
+  transform: scale(1.02);
+}/*# sourceMappingURL=0721.css.map */
